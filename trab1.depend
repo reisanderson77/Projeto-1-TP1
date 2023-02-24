@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1669807779 source:c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\entidades.cpp
+	<iostream>
+	"entidades.h"
+
+1670198621 source:c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"testesDominios.h"
+	"testesEntidades.h"
+
+1670198648 source:c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\testesdominios.cpp
+	"testesDominios.h"
+	<iostream>
+	<string.h>
+
+1670197250 source:c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\testesentidades.cpp
+	"testesEntidades.h"
+	<iostream>
+	<string.h>
+
+1670183298 c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\entidades.h
+	"dominios.h"
+	<stdexcept>
+	<iostream>
+	<string.h>
+
+1670175862 c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\dominios.h
+	<iostream>
+	<string.h>
+
+1670198583 source:c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\dominios.cpp
+	<iostream>
+	<string.h>
+	<stdexcept>
+	<cctype>
+	<map>
+	<algorithm>
+	<cstring>
+	"dominios.h"
+
+1670198775 c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\testesdominios.h
+	<iostream>
+	<string.h>
+	"dominios.h"
+
+1670188847 c:\users\pc-5700g\desktop\trabalho 1 tp1\trab1\testesentidades.h
+	"entidades.h"
+	<iostream>
+	<string.h>
+
+1670198584 source:c:\users\tayna\desktop\trab1\dominios.cpp
+	<iostream>
+	<string.h>
+	<stdexcept>
+	<cctype>
+	<map>
+	<algorithm>
+	<cstring>
+	"dominios.h"
+
+1670211703 c:\users\tayna\desktop\trab1\dominios.h
+	<iostream>
+	<string.h>
+
+1669807780 source:c:\users\tayna\desktop\trab1\entidades.cpp
+	<iostream>
+	"entidades.h"
+
+1670211889 c:\users\tayna\desktop\trab1\entidades.h
+	"dominios.h"
+	<stdexcept>
+	<iostream>
+	<string.h>
+
+1670198622 source:c:\users\tayna\desktop\trab1\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"testesDominios.h"
+	"testesEntidades.h"
+
+1670212089 c:\users\tayna\desktop\trab1\testesdominios.h
+	<iostream>
+	<string.h>
+	"dominios.h"
+
+1670188848 c:\users\tayna\desktop\trab1\testesentidades.h
+	"entidades.h"
+	<iostream>
+	<string.h>
+
+1670198650 source:c:\users\tayna\desktop\trab1\testesdominios.cpp
+	"testesDominios.h"
+	<iostream>
+	<string.h>
+
+1670197252 source:c:\users\tayna\desktop\trab1\testesentidades.cpp
+	"testesEntidades.h"
+	<iostream>
+	<string.h>
+
