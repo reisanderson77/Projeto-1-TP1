@@ -1,0 +1,71 @@
+\hypertarget{classTexto}{}\doxysection{Referência da Classe Texto}
+\label{classTexto}\index{Texto@{Texto}}
+
+
+Padrao para representacao de \mbox{\hyperlink{classTexto}{Texto}}.  
+
+
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classTexto_abc9cc039bfacd852795b34dfa93804df}{set\+Valor}} (string valor)
+\item 
+string \mbox{\hyperlink{classTexto_a329fce47e83d7d290b1e704e251dcd4b}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao de \mbox{\hyperlink{classTexto}{Texto}}. 
+
+Regras de formato\+:
+
+
+\begin{DoxyItemize}
+\item Formato por 10 a 40 caracteres.
+\item Cada caractere X e letra (A-\/Z ou a-\/z), digito (0-\/9) ou sinal de pontuacao ( . , ; ? ! \+: -\/ ).
+\item Nao ha espacos em branco em sequencia.
+\item Nao ha sinal de pontuacao (. , ; \+: ? ! -\/) em sequencia. 
+\end{DoxyItemize}
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classTexto_a329fce47e83d7d290b1e704e251dcd4b}\label{classTexto_a329fce47e83d7d290b1e704e251dcd4b}} 
+\index{Texto@{Texto}!getValor@{getValor}}
+\index{getValor@{getValor}!Texto@{Texto}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Texto\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o texto armazenado
+
+\begin{DoxyReturn}{Retorna}
+texto 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classTexto_abc9cc039bfacd852795b34dfa93804df}\label{classTexto_abc9cc039bfacd852795b34dfa93804df}} 
+\index{Texto@{Texto}!setValor@{setValor}}
+\index{setValor@{setValor}!Texto@{Texto}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Texto\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena o texto informado caso seja valida
+
+Lanca excecao caso o texto nao esteja de acordo com as regras de formato
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & texto\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,73 @@
+\hypertarget{classNome}{}\doxysection{Referência da Classe Nome}
+\label{classNome}\index{Nome@{Nome}}
+
+
+Padrao para representacao de nome.  
+
+
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classNome_ae0d51febff983d63cefe686085c68461}{set\+Valor}} (string valor)
+\item 
+string \mbox{\hyperlink{classNome_ac8881234a0e2d0ddff4fb689ceb256eb}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao de nome. 
+
+Regras de formato\+:
+
+
+\begin{DoxyItemize}
+\item \mbox{\hyperlink{classNome}{Nome}} e composto por prenome e ate dois sobrenomes.
+\item \mbox{\hyperlink{classTexto}{Texto}} (prenome mais sobrenomes e espacos em branco) e composto por total de ate 20 caracteres.
+\item Cada caractere e letra (A-\/Z, a-\/z) ou espa�o em branco.
+\item Primeira letra de prenome ou de sobrenome e maiuscula (A-\/Z) e as outras sao minusculas (a-\/z).
+\item Nao ha espa�os em branco em sequencia.
+\item Acentuacao pode ser desconsiderada. 
+\end{DoxyItemize}
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classNome_ac8881234a0e2d0ddff4fb689ceb256eb}\label{classNome_ac8881234a0e2d0ddff4fb689ceb256eb}} 
+\index{Nome@{Nome}!getValor@{getValor}}
+\index{getValor@{getValor}!Nome@{Nome}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Nome\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o nome armazenado
+
+\begin{DoxyReturn}{Retorna}
+nome 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classNome_ae0d51febff983d63cefe686085c68461}\label{classNome_ae0d51febff983d63cefe686085c68461}} 
+\index{Nome@{Nome}!setValor@{setValor}}
+\index{setValor@{setValor}!Nome@{Nome}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Nome\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena o nome informado caso seja valido
+
+Lanca excecao caso o nome nao esteja de acordo com as regras de formato
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & nome\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

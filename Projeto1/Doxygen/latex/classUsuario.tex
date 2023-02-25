@@ -1,0 +1,144 @@
+\hypertarget{classUsuario}{}\doxysection{Referência da Classe Usuario}
+\label{classUsuario}\index{Usuario@{Usuario}}
+
+
+Padrao para representacao de usuario\+:  
+
+
+
+
+{\ttfamily \#include $<$entidades.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classUsuario_a006307ffca27e3c9b9587a0fb2c0ee5a}{set\+Nome}} (const \mbox{\hyperlink{classNome}{Nome}} \&nome)
+\item 
+\mbox{\hyperlink{classNome}{Nome}} \mbox{\hyperlink{classUsuario_a712640c003aa66605846627f2c90db60}{get\+Nome}} () const
+\item 
+void \mbox{\hyperlink{classUsuario_aa9bb6e0f2bf48c8c6ad186d15e5494bd}{set\+Matricula}} (const \mbox{\hyperlink{classMatricula}{Matricula}} \&matricula)
+\item 
+\mbox{\hyperlink{classMatricula}{Matricula}} \mbox{\hyperlink{classUsuario_a3d42a081e5adb2383b63229531da7503}{get\+Matricula}} () const
+\item 
+void \mbox{\hyperlink{classUsuario_a126a54fc422205571c6db490dcb9ca03}{set\+Senha}} (const \mbox{\hyperlink{classSenha}{Senha}} \&senha)
+\item 
+\mbox{\hyperlink{classSenha}{Senha}} \mbox{\hyperlink{classUsuario_a8f78d3949b3a9492d0aa0a197860a972}{get\+Senha}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao de usuario\+: 
+
+\mbox{\hyperlink{classUsuario}{Usuario}} contem entidades \mbox{\hyperlink{classNome}{Nome}}, \mbox{\hyperlink{classMatricula}{Matricula}} e \mbox{\hyperlink{classSenha}{Senha}}. 
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classUsuario_a3d42a081e5adb2383b63229531da7503}\label{classUsuario_a3d42a081e5adb2383b63229531da7503}} 
+\index{Usuario@{Usuario}!getMatricula@{getMatricula}}
+\index{getMatricula@{getMatricula}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getMatricula()}{getMatricula()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMatricula}{Matricula}} Usuario\+::get\+Matricula (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna a matricula
+\item \begin{DoxyReturn}{Retorna}
+matricula 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classUsuario_a712640c003aa66605846627f2c90db60}\label{classUsuario_a712640c003aa66605846627f2c90db60}} 
+\index{Usuario@{Usuario}!getNome@{getNome}}
+\index{getNome@{getNome}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getNome()}{getNome()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classNome}{Nome}} Usuario\+::get\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna o nome
+\item \begin{DoxyReturn}{Retorna}
+nome 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classUsuario_a8f78d3949b3a9492d0aa0a197860a972}\label{classUsuario_a8f78d3949b3a9492d0aa0a197860a972}} 
+\index{Usuario@{Usuario}!getSenha@{getSenha}}
+\index{getSenha@{getSenha}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getSenha()}{getSenha()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSenha}{Senha}} Usuario\+::get\+Senha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna a senha
+\item \begin{DoxyReturn}{Retorna}
+senha 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classUsuario_aa9bb6e0f2bf48c8c6ad186d15e5494bd}\label{classUsuario_aa9bb6e0f2bf48c8c6ad186d15e5494bd}} 
+\index{Usuario@{Usuario}!setMatricula@{setMatricula}}
+\index{setMatricula@{setMatricula}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{setMatricula()}{setMatricula()}}
+{\footnotesize\ttfamily void Usuario\+::set\+Matricula (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classMatricula}{Matricula}} \&}]{matricula }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena a matricula do \mbox{\hyperlink{classUsuario}{Usuario}} caso seja valido
+\item Caso o matricula seja invalido e lancada execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classMatricula}{Matricula}}} & matricula\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classUsuario_a006307ffca27e3c9b9587a0fb2c0ee5a}\label{classUsuario_a006307ffca27e3c9b9587a0fb2c0ee5a}} 
+\index{Usuario@{Usuario}!setNome@{setNome}}
+\index{setNome@{setNome}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{setNome()}{setNome()}}
+{\footnotesize\ttfamily void Usuario\+::set\+Nome (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classNome}{Nome}} \&}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena o nome do \mbox{\hyperlink{classUsuario}{Usuario}} caso seja valido
+\item Caso o nome seja invalido e lacanda execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classNome}{Nome}}} & nome\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classUsuario_a126a54fc422205571c6db490dcb9ca03}\label{classUsuario_a126a54fc422205571c6db490dcb9ca03}} 
+\index{Usuario@{Usuario}!setSenha@{setSenha}}
+\index{setSenha@{setSenha}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{setSenha()}{setSenha()}}
+{\footnotesize\ttfamily void Usuario\+::set\+Senha (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSenha}{Senha}} \&}]{senha }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena a senha do \mbox{\hyperlink{classUsuario}{Usuario}} caso seja valido
+\item Caso a senha seja invalido e lancada execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classSenha}{Senha}}} & senha\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}
+
+A documentação para essa classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+entidades.\+h\end{DoxyCompactItemize}

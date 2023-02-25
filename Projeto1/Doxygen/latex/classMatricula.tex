@@ -1,0 +1,70 @@
+\hypertarget{classMatricula}{}\doxysection{Referência da Classe Matricula}
+\label{classMatricula}\index{Matricula@{Matricula}}
+
+
+Padrao para representacao de matricula.  
+
+
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMatricula_a4a2995f114eb91df3b4a3c092c64cb5a}{set\+Valor}} (string valor)
+\item 
+string \mbox{\hyperlink{classMatricula_ad10d71edeea24c66a6f7a28c2db6df30}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao de matricula. 
+
+Regras de formato\+:
+
+
+\begin{DoxyItemize}
+\item Formato LLLLDDDD
+\item L e letra maiuscula (A-\/Z).
+\item D e digito (0-\/9). 
+\end{DoxyItemize}
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classMatricula_ad10d71edeea24c66a6f7a28c2db6df30}\label{classMatricula_ad10d71edeea24c66a6f7a28c2db6df30}} 
+\index{Matricula@{Matricula}!getValor@{getValor}}
+\index{getValor@{getValor}!Matricula@{Matricula}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Matricula\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o matricula armazenado
+
+\begin{DoxyReturn}{Retorna}
+matricula 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classMatricula_a4a2995f114eb91df3b4a3c092c64cb5a}\label{classMatricula_a4a2995f114eb91df3b4a3c092c64cb5a}} 
+\index{Matricula@{Matricula}!setValor@{setValor}}
+\index{setValor@{setValor}!Matricula@{Matricula}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Matricula\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena a matricula informada caso seja valido
+
+Lan�a excecao caso o matricula nao esteja de acordo com as regras de formato
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & matricula\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

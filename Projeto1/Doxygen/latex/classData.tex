@@ -1,0 +1,72 @@
+\hypertarget{classData}{}\doxysection{Referência da Classe Data}
+\label{classData}\index{Data@{Data}}
+
+
+Padrao para representacao de \mbox{\hyperlink{classData}{Data}}.  
+
+
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classData_a0b2499e388847b482e2ecb5f3d7b541c}{set\+Valor}} (string valor)
+\item 
+string \mbox{\hyperlink{classData_a2d040be2799c23a0a3f745613a70bb43}{get\+Valor}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao de \mbox{\hyperlink{classData}{Data}}. 
+
+Regras de formato\+:
+
+
+\begin{DoxyItemize}
+\item Formato DD-\/\+MES-\/\+ANO;
+\item DD -\/ 01 a 31;
+\item MES -\/ 01 a 12;
+\item ANO -\/ 00 a 99;
+\item Deve ser levado em consideracao se ano e ou nao e bissexto. 
+\end{DoxyItemize}
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classData_a2d040be2799c23a0a3f745613a70bb43}\label{classData_a2d040be2799c23a0a3f745613a70bb43}} 
+\index{Data@{Data}!getValor@{getValor}}
+\index{getValor@{getValor}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Data\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o data armazenado
+
+\begin{DoxyReturn}{Retorna}
+data 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classData_a0b2499e388847b482e2ecb5f3d7b541c}\label{classData_a0b2499e388847b482e2ecb5f3d7b541c}} 
+\index{Data@{Data}!setValor@{setValor}}
+\index{setValor@{setValor}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Data\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{valor }\end{DoxyParamCaption})}
+
+Armazena a data informada caso seja valida
+
+Lanca excecao caso a data nao esteja de acordo com as regras de formato
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em valor} & data\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceções}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+dominios.\+h\item 
+dominios.\+cpp\end{DoxyCompactItemize}

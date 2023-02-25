@@ -1,0 +1,144 @@
+\hypertarget{classProjeto}{}\doxysection{Referência da Classe Projeto}
+\label{classProjeto}\index{Projeto@{Projeto}}
+
+
+Padrao para representacao do \mbox{\hyperlink{classProjeto}{Projeto}}\+:  
+
+
+
+
+{\ttfamily \#include $<$entidades.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classProjeto_a1e609cf2b4eff86c9f3814f163016b65}{set\+Texto\+Nome}} (const \mbox{\hyperlink{classTexto}{Texto}} \&nome)
+\item 
+\mbox{\hyperlink{classTexto}{Texto}} \mbox{\hyperlink{classProjeto_a4f07a43a1fec3324e8702f57a15665eb}{get\+Texto\+Nome}} () const
+\item 
+void \mbox{\hyperlink{classProjeto_adb1e1098e1f9d1eb23d3cb407c827988}{set\+Codigo}} (const \mbox{\hyperlink{classCodigo}{Codigo}} \&codigo)
+\item 
+\mbox{\hyperlink{classCodigo}{Codigo}} \mbox{\hyperlink{classProjeto_a5d9c3bb6177e5c62176347461bd620a3}{get\+Codigo}} () const
+\item 
+void \mbox{\hyperlink{classProjeto_a053e781714328d48558433706f307f05}{set\+Texto\+Descricao}} (const \mbox{\hyperlink{classTexto}{Texto}} \&descricao)
+\item 
+\mbox{\hyperlink{classTexto}{Texto}} \mbox{\hyperlink{classProjeto_afb3b24227bb30f637e1d7367ee27bdbb}{get\+Texto\+Descricao}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Padrao para representacao do \mbox{\hyperlink{classProjeto}{Projeto}}\+: 
+
+\mbox{\hyperlink{classProjeto}{Projeto}} contem entidades \mbox{\hyperlink{classTexto}{Texto}} (nome), \mbox{\hyperlink{classCodigo}{Codigo}} e \mbox{\hyperlink{classTexto}{Texto(descricao)}}. 
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{classProjeto_a5d9c3bb6177e5c62176347461bd620a3}\label{classProjeto_a5d9c3bb6177e5c62176347461bd620a3}} 
+\index{Projeto@{Projeto}!getCodigo@{getCodigo}}
+\index{getCodigo@{getCodigo}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{getCodigo()}{getCodigo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCodigo}{Codigo}} Projeto\+::get\+Codigo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna o codigo
+\item \begin{DoxyReturn}{Retorna}
+codigo 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classProjeto_afb3b24227bb30f637e1d7367ee27bdbb}\label{classProjeto_afb3b24227bb30f637e1d7367ee27bdbb}} 
+\index{Projeto@{Projeto}!getTextoDescricao@{getTextoDescricao}}
+\index{getTextoDescricao@{getTextoDescricao}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{getTextoDescricao()}{getTextoDescricao()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTexto}{Texto}} Projeto\+::get\+Texto\+Descricao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna a descricao
+\item \begin{DoxyReturn}{Retorna}
+descricao 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classProjeto_a4f07a43a1fec3324e8702f57a15665eb}\label{classProjeto_a4f07a43a1fec3324e8702f57a15665eb}} 
+\index{Projeto@{Projeto}!getTextoNome@{getTextoNome}}
+\index{getTextoNome@{getTextoNome}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{getTextoNome()}{getTextoNome()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classTexto}{Texto}} Projeto\+::get\+Texto\+Nome (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Retorna o nome
+\item \begin{DoxyReturn}{Retorna}
+nome 
+\end{DoxyReturn}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classProjeto_adb1e1098e1f9d1eb23d3cb407c827988}\label{classProjeto_adb1e1098e1f9d1eb23d3cb407c827988}} 
+\index{Projeto@{Projeto}!setCodigo@{setCodigo}}
+\index{setCodigo@{setCodigo}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{setCodigo()}{setCodigo()}}
+{\footnotesize\ttfamily void Projeto\+::set\+Codigo (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classCodigo}{Codigo}} \&}]{codigo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena o codigo do \mbox{\hyperlink{classProjeto}{Projeto}} caso seja valido
+\item Caso o codigo seja invalido e lancada execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classCodigo}{Codigo}}} & codigo\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classProjeto_a053e781714328d48558433706f307f05}\label{classProjeto_a053e781714328d48558433706f307f05}} 
+\index{Projeto@{Projeto}!setTextoDescricao@{setTextoDescricao}}
+\index{setTextoDescricao@{setTextoDescricao}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{setTextoDescricao()}{setTextoDescricao()}}
+{\footnotesize\ttfamily void Projeto\+::set\+Texto\+Descricao (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classTexto}{Texto}} \&}]{descricao }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena a descricao do \mbox{\hyperlink{classProjeto}{Projeto}} caso seja valido
+\item Caso a descricao seja invalido e lancada execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classTexto}{Texto}}} & descricao\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}\mbox{\Hypertarget{classProjeto_a1e609cf2b4eff86c9f3814f163016b65}\label{classProjeto_a1e609cf2b4eff86c9f3814f163016b65}} 
+\index{Projeto@{Projeto}!setTextoNome@{setTextoNome}}
+\index{setTextoNome@{setTextoNome}!Projeto@{Projeto}}
+\doxysubsubsection{\texorpdfstring{setTextoNome()}{setTextoNome()}}
+{\footnotesize\ttfamily void Projeto\+::set\+Texto\+Nome (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classTexto}{Texto}} \&}]{nome }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item Armazena o nome do \mbox{\hyperlink{classProjeto}{Projeto}} caso seja valido
+\item Caso o nome seja invalido e lacanda execao
+\item 
+\begin{DoxyParams}{Parâmetros}
+{\em \mbox{\hyperlink{classTexto}{Texto}}} & nome\\
+\hline
+\end{DoxyParams}
+
+\item 
+\begin{DoxyExceptions}{Exceções}
+{\em invalid} & argument \\
+\hline
+\end{DoxyExceptions}
+
+\end{DoxyItemize}
+
+A documentação para essa classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+entidades.\+h\end{DoxyCompactItemize}
